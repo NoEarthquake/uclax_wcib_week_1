@@ -4,9 +4,12 @@ body {
   text-align: left;
   font-family: 'Helvetica', 'Arial', sans-serif;
   padding-top: 20px;
-  padding-right: 20px;
+  padding-right: 10%;
   padding-bottom: 0;
-  padding-left: 20px; }
+  padding-left: 10%; }
+  body span {
+    background: orange;
+    color: black; }
   body h1 {
     color: #c8c8c8;
     margin-top: 10px;
