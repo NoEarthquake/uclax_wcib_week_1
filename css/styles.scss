@@ -1,5 +1,5 @@
-$background-color: rgb( 0, 0, 0 );
-$text-color: rgb( 200, 200, 200 );
+$background-color: rgb( 255, 121, 0 );
+$text-color: rgb( 0, 0, 0 );
 
 body {
   color: $text-color;
@@ -12,8 +12,10 @@ body {
   padding-left: 10%;
 
   span {
-    background: orange;
+    background: black;
     color: $background-color;
+    padding-left: 4px;
+    padding-right: 4px;
   }
 
   h1 {
@@ -37,6 +39,7 @@ body {
   p {
     color: $text-color;
     padding-right: 30px;
+    padding-top: 10%;
   }
 
   ul {
@@ -51,6 +54,6 @@ body {
   }
 
   img {
-    border-radius: 0px;
+    border-radius: 50%;
   }
 }
